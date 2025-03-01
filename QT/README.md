@@ -75,6 +75,15 @@ MyQtApp/
 
 ├── MyQtApp.pro
 
+將 ui_mainwindow.ui 轉為 ui_mainwindow.h
+-
+uic mainwindow.ui -o ui_mainwindow.h
+
+# 安裝QT creator
+brew install --cask qt-creator
+
+**執行**
+open -a "Qt Creator"
 
 建立 Qt 專案
 -
