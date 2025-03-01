@@ -20,7 +20,6 @@
 | Apple Silicon | Intel based |  
 |-------|-------|
 | export PATH="/opt/homebrew/opt/qt/bin:$PATH" | export PATH="/usr/local/opt/qt/bin:$PATH" | 
-
 | export LDFLAGS="-L/opt/homebrew/opt/qt/lib" | export LDFLAGS="-L/usr/local/opt/qt/lib" | 
 | export CPPFLAGS="-I/opt/homebrew/opt/qt/include" | export CPPFLAGS="-I/usr/local/opt/qt/include" | 
 | export PKG_CONFIG_PATH="/opt/homebrew/opt/qt/lib/pkgconfig" | export PKG_CONFIG_PATH="/usr/local/opt/qt/lib/pkgconfig" | 
