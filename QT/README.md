@@ -60,12 +60,19 @@ nano ~/.zshrc
 **QT 程式基本架構**
 
 MyQtApp/
+
 │
+
 ├── main.cpp
+
 ├── mainwindow.cpp
+
 ├── mainwindow.h
+
 ├── ui_mainwindow.ui
+
 ├── ui_mainwindow.h (這是自動生成的檔案，或者手動執行 uic 來生成)
+
 ├── MyQtApp.pro
 
 
