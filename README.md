@@ -7,14 +7,19 @@ There are notes for environmental setting or others.
 **需先安裝brew 與 C++相關套件**
 
 1. 步驟 1：安裝 Qt 環境
+
+
 | Action | Code |  
 |-------|-------|
 | 使用 Homebrew 安裝 Qt | brew install qt|
 | 檢查安裝位置(如確認有安裝，可略過） | brew --prefix qt |
 
+
 通常 Homebrew 會將 Qt 安裝到 /opt/homebrew/opt/qt（Apple Silicon）或 /usr/local/opt/qt（Intel）。
 
 2. 寫入環境變數：根據 Homebrew 安裝路徑，加入環境變數（可寫入 ~/.zshrc 或 ~/.bashrc）：
+
+
 | Apple Silicon | Intel based |  
 |-------|-------|
 | export PATH="/opt/homebrew/opt/qt/bin:$PATH"
@@ -25,6 +30,8 @@ export PATH="/usr/local/opt/qt/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/qt/lib"
 export CPPFLAGS="-I/usr/local/opt/qt/include"
 export PKG_CONFIG_PATH="/usr/local/opt/qt/lib/pkgconfig"|
+
+
 
 **使用 nano 編輯 與存檔**
 nano ~/.zshrc
@@ -39,6 +46,7 @@ nano ~/.zshrc
 2. 建立 QT 的 main.cpp
 3. qmake -project
 4. nano qt_demo.pro (進入qt_demo.pro，並修改內容)
+
 | Action | Description |  
 |-------|-------|
 |QT += widgets |-------|
@@ -50,14 +58,19 @@ nano ~/.zshrc
 -
 
 1. 產生 Makefile
+
 | Action | Code |  
 |-------|-------|
 | 產生 Makefile | qmake qt_demo.pro|
+
 2. 編譯
+
 | Action | Code |  
 |-------|-------|
 | 編譯 | make|
+
 3. 執行
+
 | Action | Code |  
 |-------|-------|
 | 不保留.app | ./qt_demo|
