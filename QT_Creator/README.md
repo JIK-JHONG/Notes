@@ -14,7 +14,7 @@ QT Creator 使用說明 於 MacOS (Apple Silicon)
 
 是專案類型，可以建立有介面的QT 或是 沒有介面的QT，這個只是一個IDE。
 
-![介面](https://github.com/JIK-JHONG/Notes/blob/main/QT_Creator/QT_workspace.jpeg)
+![介面](https://github.com/JIK-JHONG/Notes/blob/main/QT_Creator/images/QT_workspace.jpeg)
 
 
 2. 專案結構
