@@ -80,9 +80,13 @@ MyQtApp/
 uic mainwindow.ui -o ui_mainwindow.h
 
 # 安裝QT creator
+
+**安裝**
+
 brew install --cask qt-creator
 
 **執行**
+
 open -a "Qt Creator"
 
 建立 Qt 專案
