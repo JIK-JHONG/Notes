@@ -31,8 +31,12 @@ ui/
 -
 └── mainwindow.ui   // 主要視窗的 UI 設計檔案
 
+# C++
 **如果變動，建議手動執行，生成 uic mainwindow.ui -o ui_mainwindow.h**
 
+# python 
+
+**pyside6-uic form.ui -o ui_form.py**
 
 build/
 -
