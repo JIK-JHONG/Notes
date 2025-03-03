@@ -121,3 +121,27 @@ qmake
 -
 
 當有變動到 <project>.pro 或是 UI有變更都要執行。
+
+C++ based
+
+qmake <專案名稱>.pro -o Makefile
+
+make
+
+
+執行
+-
+
+**C++ based**
+
+MacOS 通常會打包為一個 .app
+
+./<專案名稱>.app/Contents/MacOS/<專案名稱>
+
+**Python based**
+
+python widget.py
+
+
+
+
