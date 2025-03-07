@@ -44,7 +44,7 @@ ui/
 
 # C++
 
-**如果變動，建議手動執行，生成 uic mainwindow.ui -o ui_mainwindow.h**
+**如果變動，建議手動執行，生成 `uic mainwindow.ui -o ui_mainwindow.h`**
 
 > [!CAUTION]
 > 如果變動，建議手動執行，生成 uic mainwindow.ui -o ui_mainwindow.h
