@@ -17,7 +17,7 @@ QT Creator 使用說明 於 MacOS (Apple Silicon)
 
 > [!CAUTION]
 > 注意：使用QT Creator執行編譯好的C++ program時，**有機會**會出現**記憶體錯誤**（IDE＋Apple Silicon問題，尤其透過 brew 安裝的QT套件）。\
-可以使用 terimal 進行執行 
+可以使用 terimal 進行執行 open <Your_APP>.app (MacOS 環境)
 >
 > 
 
