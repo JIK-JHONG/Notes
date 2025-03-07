@@ -14,6 +14,14 @@ QT Creator 使用說明 於 MacOS (Apple Silicon)
 
 是專案類型，可以建立有介面的QT 或是 沒有介面的QT，這個只是一個IDE。
 
+
+> [!CAUTION]
+> 注意：使用QT Creator執行編譯好的C++ program時，**有機會**會出現**記憶體錯誤**（IDE＋Apple Silicon問題，尤其透過 brew 安裝的QT套件）。\
+可以使用 terimal 進行執行 
+>
+> 
+
+
 ![介面](https://github.com/JIK-JHONG/Notes/blob/main/QT_Creator/images/QT_workspace.jpeg)
 
 
@@ -34,9 +42,16 @@ ui/
 # C++
 **如果變動，建議手動執行，生成 uic mainwindow.ui -o ui_mainwindow.h**
 
+> [!NOTE]
+> uic mainwindow.ui -o ui_mainwindow.h
+
+
 # python 
 
 **pyside6-uic form.ui -o ui_form.py**
+
+> [!NOTE]
+> pyside6-uic form.ui -o ui_form.py
 
 build/
 -
