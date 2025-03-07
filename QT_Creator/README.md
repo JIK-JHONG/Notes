@@ -18,8 +18,10 @@ QT Creator 使用說明 於 MacOS (Apple Silicon)
 > [!CAUTION]
 > 注意：使用QT Creator執行編譯好的C++ program時，**有機會**會出現**記憶體錯誤**（IDE＋Apple Silicon問題，尤其透過 brew 安裝的QT套件）。\
 可以使用 terimal 進行執行 open <Your_APP>.app (MacOS 環境)
->
-> 
+
+
+> [!NOTE]
+> open <Your_APP>.app (MacOS 環境)
 
 
 ![介面](https://github.com/JIK-JHONG/Notes/blob/main/QT_Creator/images/QT_workspace.jpeg)
@@ -40,7 +42,12 @@ ui/
 └── mainwindow.ui   // 主要視窗的 UI 設計檔案
 
 # C++
+
 **如果變動，建議手動執行，生成 uic mainwindow.ui -o ui_mainwindow.h**
+
+> [!CAUTION]
+> 如果變動，建議手動執行，生成 uic mainwindow.ui -o ui_mainwindow.h
+
 
 > [!NOTE]
 > uic mainwindow.ui -o ui_mainwindow.h
@@ -152,6 +159,8 @@ make
 MacOS 通常會打包為一個 .app
 
 ./<專案名稱>.app/Contents/MacOS/<專案名稱>
+
+open <專案名稱>.app
 
 **Python based**
 
