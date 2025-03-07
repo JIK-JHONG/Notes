@@ -23,6 +23,7 @@ QT Creator 使用說明 於 MacOS (Apple Silicon)
 > [!NOTE]
 > open <Your_APP>.app (MacOS 環境)
 
+`open <Your_APP>.app (MacOS 環境)`
 
 ![介面](https://github.com/JIK-JHONG/Notes/blob/main/QT_Creator/images/QT_workspace.jpeg)
 
